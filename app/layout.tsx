@@ -1,6 +1,6 @@
 
 import '../styles/globals.css'
-import Header from "./Header";
+import Header from "./Header/Header";
 import React from "react";
 
 
