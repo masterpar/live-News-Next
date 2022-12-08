@@ -1,11 +1,16 @@
 
-function Page() {
+async function homePage() {
+
+
+    // fecht the news data
+    // const news: NewsResponse = await fetchNews(categories.join(","));
+
     return (
         <div>
-            <h2>Page </h2>
-            
+            {/*NewList  news*/}
+
         </div>
     )
 }
 
-export default Page;
+export default homePage;
