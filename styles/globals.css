@@ -8,4 +8,10 @@
         underline-offset-8 rounded-full p-4 cursor-pointer hover:font-bold capitalize hover:scale-110
         transition-transform duration-200 ease-out
     }
+
+    .article {
+        @apply bg-slate-100 dark:bg-slate-800 flex flex-col rounded-lg shadow-sm
+        hover:scale-105 hover:shadow-lg hover:bg-slate-200 transition-all
+        duration-200 ease-out
+    }
 }
