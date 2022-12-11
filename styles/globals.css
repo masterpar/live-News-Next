@@ -12,6 +12,11 @@
     .article {
         @apply bg-slate-100 dark:bg-slate-800 flex flex-col rounded-lg shadow-sm
         hover:scale-105 hover:shadow-lg hover:bg-slate-200 transition-all
-        duration-200 ease-out
+        duration-200 ease-out shadow-gray-400
+    }
+
+    .headerTitle{
+        @apply text-4xl font-serif capitalize px-10 pt-5 underline
+        decoration-orange-400 decoration-2 underline-offset-4 decoration-double
     }
 }
