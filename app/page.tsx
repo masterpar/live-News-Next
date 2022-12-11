@@ -3,7 +3,7 @@ import {categories} from "../constants";
 
 
 import {getNews} from "../services/getNews";
-import NewsList from "./News/NewsList";
+import NewsList from "./news/NewsList";
 
 async function homePage() {
     // fecht the news data
